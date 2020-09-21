@@ -1,0 +1,948 @@
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 1
+
+
+   1              		.cpu cortex-m7
+   2              		.eabi_attribute 28, 1
+   3              		.eabi_attribute 20, 1
+   4              		.eabi_attribute 21, 1
+   5              		.eabi_attribute 23, 3
+   6              		.eabi_attribute 24, 1
+   7              		.eabi_attribute 25, 1
+   8              		.eabi_attribute 26, 1
+   9              		.eabi_attribute 30, 2
+  10              		.eabi_attribute 34, 1
+  11              		.eabi_attribute 18, 4
+  12              		.file	"ChaosGenerator.cpp"
+  13              		.text
+  14              		.section	.text._ZN5daisy10DaisyFieldD2Ev,"axG",%progbits,_ZN5daisy10DaisyFieldD5Ev,comdat
+  15              		.align	1
+  16              		.p2align 2,,3
+  17              		.weak	_ZN5daisy10DaisyFieldD2Ev
+  18              		.arch armv7e-m
+  19              		.syntax unified
+  20              		.thumb
+  21              		.thumb_func
+  22              		.fpu fpv5-d16
+  24              	_ZN5daisy10DaisyFieldD2Ev:
+  25              		@ args = 0, pretend = 0, frame = 0
+  26              		@ frame_needed = 0, uses_anonymous_args = 0
+  27              		@ link register save eliminated.
+  28 0000 7047     		bx	lr
+  30              		.weak	_ZN5daisy10DaisyFieldD1Ev
+  31              		.thumb_set _ZN5daisy10DaisyFieldD1Ev,_ZN5daisy10DaisyFieldD2Ev
+  32 0002 00BF     		.section	.text._ZN7daisysp6BiquadD2Ev,"axG",%progbits,_ZN7daisysp6BiquadD5Ev,comdat
+  33              		.align	1
+  34              		.p2align 2,,3
+  35              		.weak	_ZN7daisysp6BiquadD2Ev
+  36              		.syntax unified
+  37              		.thumb
+  38              		.thumb_func
+  39              		.fpu fpv5-d16
+  41              	_ZN7daisysp6BiquadD2Ev:
+  42              		@ args = 0, pretend = 0, frame = 0
+  43              		@ frame_needed = 0, uses_anonymous_args = 0
+  44              		@ link register save eliminated.
+  45 0000 7047     		bx	lr
+  47              		.weak	_ZN7daisysp6BiquadD1Ev
+  48              		.thumb_set _ZN7daisysp6BiquadD1Ev,_ZN7daisysp6BiquadD2Ev
+  49 0002 00BF     		.section	.text._ZN7daisysp4CombD2Ev,"axG",%progbits,_ZN7daisysp4CombD5Ev,comdat
+  50              		.align	1
+  51              		.p2align 2,,3
+  52              		.weak	_ZN7daisysp4CombD2Ev
+  53              		.syntax unified
+  54              		.thumb
+  55              		.thumb_func
+  56              		.fpu fpv5-d16
+  58              	_ZN7daisysp4CombD2Ev:
+  59              		@ args = 0, pretend = 0, frame = 0
+  60              		@ frame_needed = 0, uses_anonymous_args = 0
+  61              		@ link register save eliminated.
+  62 0000 7047     		bx	lr
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 2
+
+
+  64              		.weak	_ZN7daisysp4CombD1Ev
+  65              		.thumb_set _ZN7daisysp4CombD1Ev,_ZN7daisysp4CombD2Ev
+  66 0002 00BF     		.section	.text._ZN7daisysp5MetroD2Ev,"axG",%progbits,_ZN7daisysp5MetroD5Ev,comdat
+  67              		.align	1
+  68              		.p2align 2,,3
+  69              		.weak	_ZN7daisysp5MetroD2Ev
+  70              		.syntax unified
+  71              		.thumb
+  72              		.thumb_func
+  73              		.fpu fpv5-d16
+  75              	_ZN7daisysp5MetroD2Ev:
+  76              		@ args = 0, pretend = 0, frame = 0
+  77              		@ frame_needed = 0, uses_anonymous_args = 0
+  78              		@ link register save eliminated.
+  79 0000 7047     		bx	lr
+  81              		.weak	_ZN7daisysp5MetroD1Ev
+  82              		.thumb_set _ZN7daisysp5MetroD1Ev,_ZN7daisysp5MetroD2Ev
+  83 0002 00BF     		.section	.text._ZN7daisysp10OscillatorD2Ev,"axG",%progbits,_ZN7daisysp10OscillatorD5Ev,comdat
+  84              		.align	1
+  85              		.p2align 2,,3
+  86              		.weak	_ZN7daisysp10OscillatorD2Ev
+  87              		.syntax unified
+  88              		.thumb
+  89              		.thumb_func
+  90              		.fpu fpv5-d16
+  92              	_ZN7daisysp10OscillatorD2Ev:
+  93              		@ args = 0, pretend = 0, frame = 0
+  94              		@ frame_needed = 0, uses_anonymous_args = 0
+  95              		@ link register save eliminated.
+  96 0000 7047     		bx	lr
+  98              		.weak	_ZN7daisysp10OscillatorD1Ev
+  99              		.thumb_set _ZN7daisysp10OscillatorD1Ev,_ZN7daisysp10OscillatorD2Ev
+ 100 0002 00BF     		.section	.text._ZN7daisysp10WhiteNoiseD2Ev,"axG",%progbits,_ZN7daisysp10WhiteNoiseD5Ev,comdat
+ 101              		.align	1
+ 102              		.p2align 2,,3
+ 103              		.weak	_ZN7daisysp10WhiteNoiseD2Ev
+ 104              		.syntax unified
+ 105              		.thumb
+ 106              		.thumb_func
+ 107              		.fpu fpv5-d16
+ 109              	_ZN7daisysp10WhiteNoiseD2Ev:
+ 110              		@ args = 0, pretend = 0, frame = 0
+ 111              		@ frame_needed = 0, uses_anonymous_args = 0
+ 112              		@ link register save eliminated.
+ 113 0000 7047     		bx	lr
+ 115              		.weak	_ZN7daisysp10WhiteNoiseD1Ev
+ 116              		.thumb_set _ZN7daisysp10WhiteNoiseD1Ev,_ZN7daisysp10WhiteNoiseD2Ev
+ 117 0002 00BF     		.section	.text._ZL8callbackPfS_j,"ax",%progbits
+ 118              		.align	1
+ 119              		.p2align 2,,3
+ 120              		.syntax unified
+ 121              		.thumb
+ 122              		.thumb_func
+ 123              		.fpu fpv5-d16
+ 125              	_ZL8callbackPfS_j:
+ 126              		@ args = 0, pretend = 0, frame = 0
+ 127              		@ frame_needed = 0, uses_anonymous_args = 0
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 3
+
+
+ 128 0000 2DE9F84F 		push	{r3, r4, r5, r6, r7, r8, r9, r10, fp, lr}
+ 129 0004 8146     		mov	r9, r0
+ 130 0006 7C48     		ldr	r0, .L27+8
+ 131 0008 0F46     		mov	r7, r1
+ 132 000a 9046     		mov	r8, r2
+ 133 000c 0026     		movs	r6, #0
+ 134 000e 7B4C     		ldr	r4, .L27+12
+ 135 0010 2DED048B 		vpush.64	{d8, d9}
+ 136 0014 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 137 0018 7948     		ldr	r0, .L27+16
+ 138 001a FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 139 001e 7948     		ldr	r0, .L27+20
+ 140 0020 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 141 0024 7848     		ldr	r0, .L27+24
+ 142 0026 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 143 002a 7848     		ldr	r0, .L27+28
+ 144 002c FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 145 0030 7748     		ldr	r0, .L27+32
+ 146 0032 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 147 0036 7748     		ldr	r0, .L27+36
+ 148 0038 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 149 003c 7648     		ldr	r0, .L27+40
+ 150 003e FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 151 0042 7648     		ldr	r0, .L27+44
+ 152 0044 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 153 0048 7548     		ldr	r0, .L27+48
+ 154 004a FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 155 004e 7548     		ldr	r0, .L27+52
+ 156 0050 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 157 0054 7448     		ldr	r0, .L27+56
+ 158 0056 FFF7FEFF 		bl	_ZN5daisy13AnalogControl7ProcessEv
+ 159 005a 7448     		ldr	r0, .L27+60
+ 160 005c FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
+ 161 0060 7348     		ldr	r0, .L27+64
+ 162 0062 FFF7FEFF 		bl	_ZN5daisy6Switch8DebounceEv
+ 163 0066 7348     		ldr	r0, .L27+68
+ 164 0068 FFF7FEFF 		bl	dsy_sr_4021_update
+ 165 006c 3346     		mov	r3, r6
+ 166 006e 03E0     		b	.L9
+ 167              	.L11:
+ 168 0070 072E     		cmp	r6, #7
+ 169 0072 8CBF     		ite	hi
+ 170 0074 0823     		movhi	r3, #8
+ 171 0076 0023     		movls	r3, #0
+ 172              	.L9:
+ 173 0078 F1B2     		uxtb	r1, r6
+ 174 007a 6E48     		ldr	r0, .L27+68
+ 175 007c 0136     		adds	r6, r6, #1
+ 176 007e CD43     		mvns	r5, r1
+ 177 0080 05F00705 		and	r5, r5, #7
+ 178 0084 1D44     		add	r5, r5, r3
+ 179 0086 FFF7FEFF 		bl	dsy_sr_4021_state
+ 180 008a 102E     		cmp	r6, #16
+ 181 008c 04EB0503 		add	r3, r4, r5
+ 182 0090 93F82424 		ldrb	r2, [r3, #1060]	@ zero_extendqisi2
+ 183 0094 40EA4200 		orr	r0, r0, r2, lsl #1
+ 184 0098 83F82404 		strb	r0, [r3, #1060]
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 4
+
+
+ 185 009c E8D1     		bne	.L11
+ 186 009e 6648     		ldr	r0, .L27+72
+ 187 00a0 FFF7FEFF 		bl	_ZN5daisy6GateIn4TrigEv
+ 188 00a4 654B     		ldr	r3, .L27+76
+ 189 00a6 D4F8E012 		ldr	r1, [r4, #736]	@ float
+ 190 00aa D4F8FC22 		ldr	r2, [r4, #764]	@ float
+ 191 00ae 1960     		str	r1, [r3]	@ float
+ 192 00b0 5A60     		str	r2, [r3, #4]	@ float
+ 193 00b2 D4F81813 		ldr	r1, [r4, #792]	@ float
+ 194 00b6 D4F83423 		ldr	r2, [r4, #820]	@ float
+ 195 00ba 9960     		str	r1, [r3, #8]	@ float
+ 196 00bc DA60     		str	r2, [r3, #12]	@ float
+ 197 00be D4F85013 		ldr	r1, [r4, #848]	@ float
+ 198 00c2 D4F86C23 		ldr	r2, [r4, #876]	@ float
+ 199 00c6 1961     		str	r1, [r3, #16]	@ float
+ 200 00c8 5A61     		str	r2, [r3, #20]	@ float
+ 201 00ca D4F88813 		ldr	r1, [r4, #904]	@ float
+ 202 00ce D4F8A423 		ldr	r2, [r4, #932]	@ float
+ 203 00d2 84F83804 		strb	r0, [r4, #1080]
+ 204 00d6 5A48     		ldr	r0, .L27+80
+ 205 00d8 9961     		str	r1, [r3, #24]	@ float
+ 206 00da DA61     		str	r2, [r3, #28]	@ float
+ 207 00dc FFF7FEFF 		bl	_ZN7daisysp5Metro7ProcessEv
+ 208 00e0 60B1     		cbz	r0, .L12
+ 209 00e2 5849     		ldr	r1, .L27+84
+ 210 00e4 584A     		ldr	r2, .L27+88
+ 211 00e6 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
+ 212 00e8 0133     		adds	r3, r3, #1
+ 213 00ea DBB2     		uxtb	r3, r3
+ 214 00ec A2FB0302 		umull	r0, r2, r2, r3
+ 215 00f0 9208     		lsrs	r2, r2, #2
+ 216 00f2 02EB4202 		add	r2, r2, r2, lsl #1
+ 217 00f6 A3EB4203 		sub	r3, r3, r2, lsl #1
+ 218 00fa 0B70     		strb	r3, [r1]
+ 219              	.L12:
+ 220 00fc B8F1000F 		cmp	r8, #0
+ 221 0100 70D0     		beq	.L8
+ 222 0102 08F1FF38 		add	r8, r8, #-1
+ 223 0106 0026     		movs	r6, #0
+ 224 0108 DFF84CB1 		ldr	fp, .L27+104
+ 225 010c 28F00108 		bic	r8, r8, #1
+ 226 0110 4E4D     		ldr	r5, .L27+92
+ 227 0112 DFF848A1 		ldr	r10, .L27+108
+ 228              	.L16:
+ 229 0116 4D48     		ldr	r0, .L27+92
+ 230 0118 99ED009A 		vldr.32	s18, [r9]
+ 231 011c FFF7FEFF 		bl	_ZN7daisysp10Oscillator7ProcessEv
+ 232 0120 D4EDB87A 		vldr.32	s15, [r4, #736]
+ 233 0124 F7EE006A 		vmov.f32	s13, #1.0e+0
+ 234 0128 9FED497A 		vldr.32	s14, .L27+96
+ 235 012c F0EE408A 		vmov.f32	s17, s0
+ 236 0130 9FED488A 		vldr.32	s16, .L27+100
+ 237 0134 67EE877A 		vmul.f32	s15, s15, s14
+ 238 0138 4748     		ldr	r0, .L27+104
+ 239 013a F5EEC07A 		vcmpe.f32	s15, #0
+ 240 013e F1EE10FA 		vmrs	APSR_nzcv, FPSCR
+ 241 0142 03DD     		ble	.L14
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 5
+
+
+ 242 0144 86EEA70A 		vdiv.f32	s0, s13, s15
+ 243 0148 FFF7FEFF 		bl	_ZN7daisysp4Comb9SetPeriodEf
+ 244              	.L14:
+ 245 014c 94EDBF7A 		vldr.32	s14, [r4, #764]
+ 246 0150 0837     		adds	r7, r7, #8
+ 247 0152 4148     		ldr	r0, .L27+104
+ 248 0154 B7EEC77A 		vcvt.f64.f32	d7, s14
+ 249 0158 9FED250B 		vldr.64	d0, .L27
+ 250 015c 37EE000B 		vadd.f64	d0, d7, d0
+ 251 0160 B7EEC00B 		vcvt.f32.f64	s0, d0
+ 252 0164 FFF7FEFF 		bl	_ZN7daisysp4Comb9SetPeriodEf
+ 253 0168 F1EE046A 		vmov.f32	s13, #5.0e+0
+ 254 016c D4EDCD7A 		vldr.32	s15, [r4, #820]
+ 255 0170 94EDC67A 		vldr.32	s14, [r4, #792]
+ 256 0174 27EE880A 		vmul.f32	s0, s15, s16
+ 257 0178 3448     		ldr	r0, .L27+92
+ 258 017a 27EE267A 		vmul.f32	s14, s14, s13
+ 259 017e 85ED020A 		vstr.32	s0, [r5, #8]
+ 260 0182 8BED017A 		vstr.32	s14, [fp, #4]
+ 261 0186 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
+ 262 018a D4EDDB7A 		vldr.32	s15, [r4, #876]
+ 263 018e D4F85033 		ldr	r3, [r4, #848]	@ float
+ 264 0192 67EE887A 		vmul.f32	s15, s15, s16
+ 265 0196 3148     		ldr	r0, .L27+108
+ 266 0198 6B60     		str	r3, [r5, #4]	@ float
+ 267 019a 85ED060A 		vstr.32	s0, [r5, #24]
+ 268 019e CAED017A 		vstr.32	s15, [r10, #4]
+ 269 01a2 FFF7FEFF 		bl	_ZN7daisysp6Biquad5ResetEv
+ 270 01a6 D4F88833 		ldr	r3, [r4, #904]	@ float
+ 271 01aa 2C48     		ldr	r0, .L27+108
+ 272 01ac CAF80830 		str	r3, [r10, #8]	@ float
+ 273 01b0 FFF7FEFF 		bl	_ZN7daisysp6Biquad5ResetEv
+ 274 01b4 2848     		ldr	r0, .L27+104
+ 275 01b6 B0EE490A 		vmov.f32	s0, s18
+ 276 01ba FFF7FEFF 		bl	_ZN7daisysp4Comb7ProcessEf
+ 277 01be B0EE408A 		vmov.f32	s16, s0
+ 278 01c2 B0EE680A 		vmov.f32	s0, s17
+ 279 01c6 D4EDE98A 		vldr.32	s17, [r4, #932]
+ 280 01ca 2448     		ldr	r0, .L27+108
+ 281 01cc FFF7FEFF 		bl	_ZN7daisysp6Biquad7ProcessEf
+ 282 01d0 A0EE288A 		vfma.f32	s16, s0, s17
+ 283 01d4 B31C     		adds	r3, r6, #2
+ 284 01d6 4645     		cmp	r6, r8
+ 285 01d8 1E46     		mov	r6, r3
+ 286 01da 07ED028A 		vstr.32	s16, [r7, #-8]
+ 287 01de 07ED018A 		vstr.32	s16, [r7, #-4]
+ 288 01e2 98D1     		bne	.L16
+ 289              	.L8:
+ 290 01e4 BDEC048B 		vldm	sp!, {d8-d9}
+ 291 01e8 BDE8F88F 		pop	{r3, r4, r5, r6, r7, r8, r9, r10, fp, pc}
+ 292              	.L28:
+ 293 01ec AFF30080 		.align	3
+ 294              	.L27:
+ 295 01f0 FCA9F1D2 		.word	3539053052
+ 296 01f4 4D62503F 		.word	1062232653
+ 297 01f8 D4020000 		.word	.LANCHOR0+724
+ 298 01fc 00000000 		.word	.LANCHOR0
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 6
+
+
+ 299 0200 F0020000 		.word	.LANCHOR0+752
+ 300 0204 0C030000 		.word	.LANCHOR0+780
+ 301 0208 28030000 		.word	.LANCHOR0+808
+ 302 020c 44030000 		.word	.LANCHOR0+836
+ 303 0210 60030000 		.word	.LANCHOR0+864
+ 304 0214 7C030000 		.word	.LANCHOR0+892
+ 305 0218 98030000 		.word	.LANCHOR0+920
+ 306 021c B4030000 		.word	.LANCHOR0+948
+ 307 0220 D0030000 		.word	.LANCHOR0+976
+ 308 0224 EC030000 		.word	.LANCHOR0+1004
+ 309 0228 08040000 		.word	.LANCHOR0+1032
+ 310 022c 88020000 		.word	.LANCHOR0+648
+ 311 0230 98020000 		.word	.LANCHOR0+664
+ 312 0234 A8020000 		.word	.LANCHOR0+680
+ 313 0238 5D000000 		.word	.LANCHOR0+93
+ 314 023c 00000000 		.word	.LANCHOR1
+ 315 0240 00000000 		.word	.LANCHOR2
+ 316 0244 00000000 		.word	.LANCHOR3
+ 317 0248 ABAAAAAA 		.word	-1431655765
+ 318 024c 00000000 		.word	.LANCHOR4
+ 319 0250 0000C842 		.word	1120403456
+ 320 0254 0000FA44 		.word	1157234688
+ 321 0258 00000000 		.word	.LANCHOR5
+ 322 025c 00000000 		.word	.LANCHOR6
+ 324              		.section	.text.startup.main,"ax",%progbits
+ 325              		.align	1
+ 326              		.p2align 2,,3
+ 327              		.global	main
+ 328              		.syntax unified
+ 329              		.thumb
+ 330              		.thumb_func
+ 331              		.fpu fpv5-d16
+ 333              	main:
+ 334              		@ args = 0, pretend = 0, frame = 0
+ 335              		@ frame_needed = 0, uses_anonymous_args = 0
+ 336 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
+ 337 0002 374C     		ldr	r4, .L34
+ 338 0004 0122     		movs	r2, #1
+ 339 0006 374B     		ldr	r3, .L34+4
+ 340 0008 2046     		mov	r0, r4
+ 341 000a 2DED048B 		vpush.64	{d8, d9}
+ 342 000e 1A70     		strb	r2, [r3]
+ 343 0010 FFF7FEFF 		bl	_ZN5daisy10DaisyField4InitEv
+ 344 0014 344B     		ldr	r3, .L34+8
+ 345 0016 94ED9F8A 		vldr.32	s16, [r4, #636]
+ 346 001a 03F51652 		add	r2, r3, #9600
+ 347              	.L30:
+ 348 001e 0024     		movs	r4, #0
+ 349 0020 43F8044B 		str	r4, [r3], #4	@ float
+ 350 0024 9342     		cmp	r3, r2
+ 351 0026 FAD1     		bne	.L30
+ 352 0028 304E     		ldr	r6, .L34+12
+ 353 002a 4FF41662 		mov	r2, #2400
+ 354 002e 2E49     		ldr	r1, .L34+8
+ 355 0030 F7EE008A 		vmov.f32	s17, #1.0e+0
+ 356 0034 3046     		mov	r0, r6
+ 357 0036 B0EE480A 		vmov.f32	s0, s16
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 7
+
+
+ 358 003a 9FED2D9A 		vldr.32	s18, .L34+16
+ 359 003e FFF7FEFF 		bl	_ZN7daisysp4Comb4InitEfPfj
+ 360 0042 3046     		mov	r0, r6
+ 361 0044 9FED2B0A 		vldr.32	s0, .L34+20
+ 362 0048 FFF7FEFF 		bl	_ZN7daisysp4Comb9SetPeriodEf
+ 363 004c 3046     		mov	r0, r6
+ 364 004e B0EE490A 		vmov.f32	s0, s18
+ 365 0052 294D     		ldr	r5, .L34+24
+ 366 0054 FFF7FEFF 		bl	_ZN7daisysp4Comb9SetPeriodEf
+ 367 0058 C8EE887A 		vdiv.f32	s15, s17, s16
+ 368 005c 0122     		movs	r2, #1
+ 369 005e 274B     		ldr	r3, .L34+28
+ 370 0060 9FED270A 		vldr.32	s0, .L34+32
+ 371 0064 4FF07C57 		mov	r7, #1056964608
+ 372 0068 5A60     		str	r2, [r3, #4]
+ 373 006a 2846     		mov	r0, r5
+ 374 006c 86ED019A 		vstr.32	s18, [r6, #4]
+ 375 0070 C3ED008A 		vstr.32	s17, [r3]
+ 376 0074 234E     		ldr	r6, .L34+36
+ 377 0076 85ED038A 		vstr.32	s16, [r5, #12]
+ 378 007a 6C61     		str	r4, [r5, #20]	@ float
+ 379 007c 85ED020A 		vstr.32	s0, [r5, #8]
+ 380 0080 6F60     		str	r7, [r5, #4]	@ float
+ 381 0082 C5ED047A 		vstr.32	s15, [r5, #16]
+ 382 0086 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
+ 383 008a F0EE407A 		vmov.f32	s15, s0
+ 384 008e 0023     		movs	r3, #0
+ 385 0090 B0EE480A 		vmov.f32	s0, s16
+ 386 0094 3046     		mov	r0, r6
+ 387 0096 2B70     		strb	r3, [r5]
+ 388 0098 C5ED067A 		vstr.32	s15, [r5, #24]
+ 389 009c FFF7FEFF 		bl	_ZN7daisysp6Biquad4InitEf
+ 390 00a0 F0EE480A 		vmov.f32	s1, s16
+ 391 00a4 1848     		ldr	r0, .L34+40
+ 392 00a6 B0EE680A 		vmov.f32	s0, s17
+ 393 00aa FFF7FEFF 		bl	_ZN7daisysp5Metro4InitEff
+ 394 00ae 9FED170A 		vldr.32	s0, .L34+44
+ 395 00b2 2846     		mov	r0, r5
+ 396 00b4 85ED020A 		vstr.32	s0, [r5, #8]
+ 397 00b8 FFF7FEFF 		bl	_ZN7daisysp10Oscillator12CalcPhaseIncEf
+ 398 00bc 0622     		movs	r2, #6
+ 399 00be 144B     		ldr	r3, .L34+48
+ 400 00c0 3046     		mov	r0, r6
+ 401 00c2 85ED060A 		vstr.32	s0, [r5, #24]
+ 402 00c6 2A70     		strb	r2, [r5]
+ 403 00c8 B360     		str	r3, [r6, #8]	@ float
+ 404 00ca 6F60     		str	r7, [r5, #4]	@ float
+ 405 00cc FFF7FEFF 		bl	_ZN7daisysp6Biquad5ResetEv
+ 406 00d0 0348     		ldr	r0, .L34
+ 407 00d2 1049     		ldr	r1, .L34+52
+ 408 00d4 FFF7FEFF 		bl	_ZN5daisy10DaisyField10StartAudioEPFvPfS1_jE
+ 409 00d8 0F48     		ldr	r0, .L34+56
+ 410 00da FFF7FEFF 		bl	_ZN5daisy9AdcHandle5StartEv
+ 411              	.L31:
+ 412 00de FEE7     		b	.L31
+ 413              	.L35:
+ 414              		.align	2
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 8
+
+
+ 415              	.L34:
+ 416 00e0 00000000 		.word	.LANCHOR0
+ 417 00e4 00000000 		.word	.LANCHOR3
+ 418 00e8 00000000 		.word	buf
+ 419 00ec 00000000 		.word	.LANCHOR5
+ 420 00f0 CDCCCC3D 		.word	1036831949
+ 421 00f4 6F12033B 		.word	990057071
+ 422 00f8 00000000 		.word	.LANCHOR4
+ 423 00fc 00000000 		.word	.LANCHOR7
+ 424 0100 0000C842 		.word	1120403456
+ 425 0104 00000000 		.word	.LANCHOR6
+ 426 0108 00000000 		.word	.LANCHOR2
+ 427 010c 00005C43 		.word	1130102784
+ 428 0110 3333333F 		.word	1060320051
+ 429 0114 00000000 		.word	_ZL8callbackPfS_j
+ 430 0118 40000000 		.word	.LANCHOR0+64
+ 432              		.section	.text.startup._GLOBAL__sub_I_hw,"ax",%progbits
+ 433              		.align	1
+ 434              		.p2align 2,,3
+ 435              		.syntax unified
+ 436              		.thumb
+ 437              		.thumb_func
+ 438              		.fpu fpv5-d16
+ 440              	_GLOBAL__sub_I_hw:
+ 441              		@ args = 0, pretend = 0, frame = 0
+ 442              		@ frame_needed = 0, uses_anonymous_args = 0
+ 443 0000 38B5     		push	{r3, r4, r5, lr}
+ 444 0002 154D     		ldr	r5, .L38
+ 445 0004 0023     		movs	r3, #0
+ 446 0006 154C     		ldr	r4, .L38+4
+ 447 0008 4FF40072 		mov	r2, #512
+ 448 000c 05F17A00 		add	r0, r5, #122
+ 449 0010 1349     		ldr	r1, .L38+8
+ 450 0012 6B66     		str	r3, [r5, #100]
+ 451 0014 FFF7FEFF 		bl	memcpy
+ 452 0018 2246     		mov	r2, r4
+ 453 001a 2846     		mov	r0, r5
+ 454 001c 1149     		ldr	r1, .L38+12
+ 455 001e FFF7FEFF 		bl	__aeabi_atexit
+ 456 0022 2246     		mov	r2, r4
+ 457 0024 1049     		ldr	r1, .L38+16
+ 458 0026 1148     		ldr	r0, .L38+20
+ 459 0028 FFF7FEFF 		bl	__aeabi_atexit
+ 460 002c 2246     		mov	r2, r4
+ 461 002e 1049     		ldr	r1, .L38+24
+ 462 0030 1048     		ldr	r0, .L38+28
+ 463 0032 FFF7FEFF 		bl	__aeabi_atexit
+ 464 0036 2246     		mov	r2, r4
+ 465 0038 0F49     		ldr	r1, .L38+32
+ 466 003a 1048     		ldr	r0, .L38+36
+ 467 003c FFF7FEFF 		bl	__aeabi_atexit
+ 468 0040 2246     		mov	r2, r4
+ 469 0042 0F49     		ldr	r1, .L38+40
+ 470 0044 0F48     		ldr	r0, .L38+44
+ 471 0046 FFF7FEFF 		bl	__aeabi_atexit
+ 472 004a 2246     		mov	r2, r4
+ 473 004c 0E49     		ldr	r1, .L38+48
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 9
+
+
+ 474 004e 0F48     		ldr	r0, .L38+52
+ 475 0050 BDE83840 		pop	{r3, r4, r5, lr}
+ 476 0054 FFF7FEBF 		b	__aeabi_atexit
+ 477              	.L39:
+ 478              		.align	2
+ 479              	.L38:
+ 480 0058 00000000 		.word	.LANCHOR0
+ 481 005c 00000000 		.word	__dso_handle
+ 482 0060 00000000 		.word	.LANCHOR8
+ 483 0064 00000000 		.word	_ZN5daisy10DaisyFieldD1Ev
+ 484 0068 00000000 		.word	_ZN7daisysp4CombD1Ev
+ 485 006c 00000000 		.word	.LANCHOR5
+ 486 0070 00000000 		.word	_ZN7daisysp6BiquadD1Ev
+ 487 0074 00000000 		.word	.LANCHOR6
+ 488 0078 00000000 		.word	_ZN7daisysp10WhiteNoiseD1Ev
+ 489 007c 00000000 		.word	.LANCHOR7
+ 490 0080 00000000 		.word	_ZN7daisysp10OscillatorD1Ev
+ 491 0084 00000000 		.word	.LANCHOR4
+ 492 0088 00000000 		.word	_ZN7daisysp5MetroD1Ev
+ 493 008c 00000000 		.word	.LANCHOR2
+ 495              		.section	.init_array,"aw",%init_array
+ 496              		.align	2
+ 497 0000 00000000 		.word	_GLOBAL__sub_I_hw(target1)
+ 498              		.global	depth
+ 499              		.global	buf
+ 500              		.global	kvals
+ 501              		.global	osc
+ 502              		.global	flt_2
+ 503              		.global	flt
+ 504              		.global	hw
+ 505              		.section	.rodata
+ 506              		.align	2
+ 507              		.set	.LANCHOR8,. + 0
+ 508              	.LC0:
+ 509 0000 0000     		.short	0
+ 510 0002 0100     		.short	1
+ 511 0004 0100     		.short	1
+ 512 0006 0100     		.short	1
+ 513 0008 0100     		.short	1
+ 514 000a 0100     		.short	1
+ 515 000c 0100     		.short	1
+ 516 000e 0100     		.short	1
+ 517 0010 0100     		.short	1
+ 518 0012 0100     		.short	1
+ 519 0014 0100     		.short	1
+ 520 0016 0100     		.short	1
+ 521 0018 0200     		.short	2
+ 522 001a 0200     		.short	2
+ 523 001c 0200     		.short	2
+ 524 001e 0200     		.short	2
+ 525 0020 0200     		.short	2
+ 526 0022 0200     		.short	2
+ 527 0024 0200     		.short	2
+ 528 0026 0300     		.short	3
+ 529 0028 0300     		.short	3
+ 530 002a 0400     		.short	4
+ 531 002c 0400     		.short	4
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 10
+
+
+ 532 002e 0500     		.short	5
+ 533 0030 0500     		.short	5
+ 534 0032 0600     		.short	6
+ 535 0034 0700     		.short	7
+ 536 0036 0800     		.short	8
+ 537 0038 0800     		.short	8
+ 538 003a 0900     		.short	9
+ 539 003c 0A00     		.short	10
+ 540 003e 0B00     		.short	11
+ 541 0040 0C00     		.short	12
+ 542 0042 0D00     		.short	13
+ 543 0044 0F00     		.short	15
+ 544 0046 1000     		.short	16
+ 545 0048 1100     		.short	17
+ 546 004a 1200     		.short	18
+ 547 004c 1400     		.short	20
+ 548 004e 1500     		.short	21
+ 549 0050 1700     		.short	23
+ 550 0052 1900     		.short	25
+ 551 0054 1A00     		.short	26
+ 552 0056 1C00     		.short	28
+ 553 0058 1E00     		.short	30
+ 554 005a 2000     		.short	32
+ 555 005c 2200     		.short	34
+ 556 005e 2400     		.short	36
+ 557 0060 2600     		.short	38
+ 558 0062 2800     		.short	40
+ 559 0064 2B00     		.short	43
+ 560 0066 2D00     		.short	45
+ 561 0068 3000     		.short	48
+ 562 006a 3200     		.short	50
+ 563 006c 3500     		.short	53
+ 564 006e 3800     		.short	56
+ 565 0070 3B00     		.short	59
+ 566 0072 3E00     		.short	62
+ 567 0074 4100     		.short	65
+ 568 0076 4400     		.short	68
+ 569 0078 4700     		.short	71
+ 570 007a 4B00     		.short	75
+ 571 007c 4E00     		.short	78
+ 572 007e 5200     		.short	82
+ 573 0080 5500     		.short	85
+ 574 0082 5900     		.short	89
+ 575 0084 5D00     		.short	93
+ 576 0086 6100     		.short	97
+ 577 0088 6500     		.short	101
+ 578 008a 6900     		.short	105
+ 579 008c 6E00     		.short	110
+ 580 008e 7200     		.short	114
+ 581 0090 7700     		.short	119
+ 582 0092 7B00     		.short	123
+ 583 0094 8000     		.short	128
+ 584 0096 8500     		.short	133
+ 585 0098 8A00     		.short	138
+ 586 009a 8F00     		.short	143
+ 587 009c 9500     		.short	149
+ 588 009e 9A00     		.short	154
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 11
+
+
+ 589 00a0 9F00     		.short	159
+ 590 00a2 A500     		.short	165
+ 591 00a4 AB00     		.short	171
+ 592 00a6 B100     		.short	177
+ 593 00a8 B700     		.short	183
+ 594 00aa BD00     		.short	189
+ 595 00ac C300     		.short	195
+ 596 00ae CA00     		.short	202
+ 597 00b0 D000     		.short	208
+ 598 00b2 D700     		.short	215
+ 599 00b4 DE00     		.short	222
+ 600 00b6 E500     		.short	229
+ 601 00b8 EC00     		.short	236
+ 602 00ba F300     		.short	243
+ 603 00bc FA00     		.short	250
+ 604 00be 0201     		.short	258
+ 605 00c0 0A01     		.short	266
+ 606 00c2 1101     		.short	273
+ 607 00c4 1901     		.short	281
+ 608 00c6 2201     		.short	290
+ 609 00c8 2A01     		.short	298
+ 610 00ca 3201     		.short	306
+ 611 00cc 3B01     		.short	315
+ 612 00ce 4401     		.short	324
+ 613 00d0 4C01     		.short	332
+ 614 00d2 5501     		.short	341
+ 615 00d4 5F01     		.short	351
+ 616 00d6 6801     		.short	360
+ 617 00d8 7101     		.short	369
+ 618 00da 7B01     		.short	379
+ 619 00dc 8501     		.short	389
+ 620 00de 8F01     		.short	399
+ 621 00e0 9901     		.short	409
+ 622 00e2 A301     		.short	419
+ 623 00e4 AE01     		.short	430
+ 624 00e6 B801     		.short	440
+ 625 00e8 C301     		.short	451
+ 626 00ea CE01     		.short	462
+ 627 00ec D901     		.short	473
+ 628 00ee E501     		.short	485
+ 629 00f0 F001     		.short	496
+ 630 00f2 FC01     		.short	508
+ 631 00f4 0802     		.short	520
+ 632 00f6 1402     		.short	532
+ 633 00f8 2002     		.short	544
+ 634 00fa 2C02     		.short	556
+ 635 00fc 3902     		.short	569
+ 636 00fe 4602     		.short	582
+ 637 0100 5202     		.short	594
+ 638 0102 6002     		.short	608
+ 639 0104 6D02     		.short	621
+ 640 0106 7A02     		.short	634
+ 641 0108 8802     		.short	648
+ 642 010a 9602     		.short	662
+ 643 010c A402     		.short	676
+ 644 010e B202     		.short	690
+ 645 0110 C002     		.short	704
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 12
+
+
+ 646 0112 CF02     		.short	719
+ 647 0114 DE02     		.short	734
+ 648 0116 ED02     		.short	749
+ 649 0118 FC02     		.short	764
+ 650 011a 0B03     		.short	779
+ 651 011c 1B03     		.short	795
+ 652 011e 2B03     		.short	811
+ 653 0120 3B03     		.short	827
+ 654 0122 4B03     		.short	843
+ 655 0124 5B03     		.short	859
+ 656 0126 6C03     		.short	876
+ 657 0128 7D03     		.short	893
+ 658 012a 8E03     		.short	910
+ 659 012c 9F03     		.short	927
+ 660 012e B003     		.short	944
+ 661 0130 C203     		.short	962
+ 662 0132 D403     		.short	980
+ 663 0134 E603     		.short	998
+ 664 0136 F803     		.short	1016
+ 665 0138 0A04     		.short	1034
+ 666 013a 1D04     		.short	1053
+ 667 013c 3004     		.short	1072
+ 668 013e 4304     		.short	1091
+ 669 0140 5604     		.short	1110
+ 670 0142 6A04     		.short	1130
+ 671 0144 7E04     		.short	1150
+ 672 0146 9204     		.short	1170
+ 673 0148 A604     		.short	1190
+ 674 014a BA04     		.short	1210
+ 675 014c CF04     		.short	1231
+ 676 014e E404     		.short	1252
+ 677 0150 F904     		.short	1273
+ 678 0152 0E05     		.short	1294
+ 679 0154 2405     		.short	1316
+ 680 0156 3A05     		.short	1338
+ 681 0158 5005     		.short	1360
+ 682 015a 6605     		.short	1382
+ 683 015c 7C05     		.short	1404
+ 684 015e 9305     		.short	1427
+ 685 0160 AA05     		.short	1450
+ 686 0162 C105     		.short	1473
+ 687 0164 D905     		.short	1497
+ 688 0166 F005     		.short	1520
+ 689 0168 0806     		.short	1544
+ 690 016a 2006     		.short	1568
+ 691 016c 3906     		.short	1593
+ 692 016e 5106     		.short	1617
+ 693 0170 6A06     		.short	1642
+ 694 0172 8306     		.short	1667
+ 695 0174 9D06     		.short	1693
+ 696 0176 B606     		.short	1718
+ 697 0178 D006     		.short	1744
+ 698 017a EA06     		.short	1770
+ 699 017c 0507     		.short	1797
+ 700 017e 1F07     		.short	1823
+ 701 0180 3A07     		.short	1850
+ 702 0182 5507     		.short	1877
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 13
+
+
+ 703 0184 7107     		.short	1905
+ 704 0186 8C07     		.short	1932
+ 705 0188 A807     		.short	1960
+ 706 018a C407     		.short	1988
+ 707 018c E107     		.short	2017
+ 708 018e FD07     		.short	2045
+ 709 0190 1A08     		.short	2074
+ 710 0192 3708     		.short	2103
+ 711 0194 5508     		.short	2133
+ 712 0196 7208     		.short	2162
+ 713 0198 9008     		.short	2192
+ 714 019a AF08     		.short	2223
+ 715 019c CD08     		.short	2253
+ 716 019e EC08     		.short	2284
+ 717 01a0 0B09     		.short	2315
+ 718 01a2 2A09     		.short	2346
+ 719 01a4 4A09     		.short	2378
+ 720 01a6 6A09     		.short	2410
+ 721 01a8 8A09     		.short	2442
+ 722 01aa AA09     		.short	2474
+ 723 01ac CB09     		.short	2507
+ 724 01ae EC09     		.short	2540
+ 725 01b0 0D0A     		.short	2573
+ 726 01b2 2E0A     		.short	2606
+ 727 01b4 500A     		.short	2640
+ 728 01b6 720A     		.short	2674
+ 729 01b8 940A     		.short	2708
+ 730 01ba B70A     		.short	2743
+ 731 01bc DA0A     		.short	2778
+ 732 01be FD0A     		.short	2813
+ 733 01c0 210B     		.short	2849
+ 734 01c2 440B     		.short	2884
+ 735 01c4 680B     		.short	2920
+ 736 01c6 8D0B     		.short	2957
+ 737 01c8 B10B     		.short	2993
+ 738 01ca D60B     		.short	3030
+ 739 01cc FB0B     		.short	3067
+ 740 01ce 210C     		.short	3105
+ 741 01d0 470C     		.short	3143
+ 742 01d2 6D0C     		.short	3181
+ 743 01d4 930C     		.short	3219
+ 744 01d6 BA0C     		.short	3258
+ 745 01d8 E10C     		.short	3297
+ 746 01da 080D     		.short	3336
+ 747 01dc 300D     		.short	3376
+ 748 01de 580D     		.short	3416
+ 749 01e0 800D     		.short	3456
+ 750 01e2 A80D     		.short	3496
+ 751 01e4 D10D     		.short	3537
+ 752 01e6 FA0D     		.short	3578
+ 753 01e8 230E     		.short	3619
+ 754 01ea 4D0E     		.short	3661
+ 755 01ec 770E     		.short	3703
+ 756 01ee A10E     		.short	3745
+ 757 01f0 CC0E     		.short	3788
+ 758 01f2 F70E     		.short	3831
+ 759 01f4 220F     		.short	3874
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 14
+
+
+ 760 01f6 4E0F     		.short	3918
+ 761 01f8 7A0F     		.short	3962
+ 762 01fa A60F     		.short	4006
+ 763 01fc D20F     		.short	4050
+ 764 01fe FF0F     		.short	4095
+ 765              		.section	.bss._ZL5metro,"aw",%nobits
+ 766              		.align	2
+ 767              		.set	.LANCHOR2,. + 0
+ 770              	_ZL5metro:
+ 771 0000 00000000 		.space	16
+ 771      00000000 
+ 771      00000000 
+ 771      00000000 
+ 772              		.section	.bss._ZL5noise,"aw",%nobits
+ 773              		.align	2
+ 774              		.set	.LANCHOR7,. + 0
+ 777              	_ZL5noise:
+ 778 0000 00000000 		.space	8
+ 778      00000000 
+ 779              		.section	.bss.buf,"aw",%nobits
+ 780              		.align	2
+ 783              	buf:
+ 784 0000 00000000 		.space	9600
+ 784      00000000 
+ 784      00000000 
+ 784      00000000 
+ 784      00000000 
+ 785              		.section	.bss.depth,"aw",%nobits
+ 786              		.set	.LANCHOR3,. + 0
+ 789              	depth:
+ 790 0000 00       		.space	1
+ 791              		.section	.bss.flt,"aw",%nobits
+ 792              		.align	2
+ 793              		.set	.LANCHOR5,. + 0
+ 796              	flt:
+ 797 0000 00000000 		.space	36
+ 797      00000000 
+ 797      00000000 
+ 797      00000000 
+ 797      00000000 
+ 798              		.section	.bss.flt_2,"aw",%nobits
+ 799              		.align	2
+ 800              		.set	.LANCHOR6,. + 0
+ 803              	flt_2:
+ 804 0000 00000000 		.space	56
+ 804      00000000 
+ 804      00000000 
+ 804      00000000 
+ 804      00000000 
+ 805              		.section	.bss.hw,"aw",%nobits
+ 806              		.align	2
+ 807              		.set	.LANCHOR0,. + 0
+ 810              	hw:
+ 811 0000 00000000 		.space	1084
+ 811      00000000 
+ 811      00000000 
+ 811      00000000 
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 15
+
+
+ 811      00000000 
+ 812              		.section	.bss.kvals,"aw",%nobits
+ 813              		.align	2
+ 814              		.set	.LANCHOR1,. + 0
+ 817              	kvals:
+ 818 0000 00000000 		.space	32
+ 818      00000000 
+ 818      00000000 
+ 818      00000000 
+ 818      00000000 
+ 819              		.section	.bss.osc,"aw",%nobits
+ 820              		.align	2
+ 821              		.set	.LANCHOR4,. + 0
+ 824              	osc:
+ 825 0000 00000000 		.space	36
+ 825      00000000 
+ 825      00000000 
+ 825      00000000 
+ 825      00000000 
+ 826              		.hidden	__dso_handle
+ 827              		.ident	"GCC: (GNU Tools for Arm Embedded Processors 9-2019-q4-major) 9.2.1 20191025 (release) [ARM
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 16
+
+
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 ChaosGenerator.cpp
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:15     .text._ZN5daisy10DaisyFieldD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:24     .text._ZN5daisy10DaisyFieldD2Ev:0000000000000000 _ZN5daisy10DaisyFieldD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:24     .text._ZN5daisy10DaisyFieldD2Ev:0000000000000000 _ZN5daisy10DaisyFieldD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:33     .text._ZN7daisysp6BiquadD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:41     .text._ZN7daisysp6BiquadD2Ev:0000000000000000 _ZN7daisysp6BiquadD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:41     .text._ZN7daisysp6BiquadD2Ev:0000000000000000 _ZN7daisysp6BiquadD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:50     .text._ZN7daisysp4CombD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:58     .text._ZN7daisysp4CombD2Ev:0000000000000000 _ZN7daisysp4CombD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:58     .text._ZN7daisysp4CombD2Ev:0000000000000000 _ZN7daisysp4CombD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:67     .text._ZN7daisysp5MetroD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:75     .text._ZN7daisysp5MetroD2Ev:0000000000000000 _ZN7daisysp5MetroD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:75     .text._ZN7daisysp5MetroD2Ev:0000000000000000 _ZN7daisysp5MetroD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:84     .text._ZN7daisysp10OscillatorD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:92     .text._ZN7daisysp10OscillatorD2Ev:0000000000000000 _ZN7daisysp10OscillatorD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:92     .text._ZN7daisysp10OscillatorD2Ev:0000000000000000 _ZN7daisysp10OscillatorD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:101    .text._ZN7daisysp10WhiteNoiseD2Ev:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:109    .text._ZN7daisysp10WhiteNoiseD2Ev:0000000000000000 _ZN7daisysp10WhiteNoiseD2Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:109    .text._ZN7daisysp10WhiteNoiseD2Ev:0000000000000000 _ZN7daisysp10WhiteNoiseD1Ev
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:118    .text._ZL8callbackPfS_j:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:125    .text._ZL8callbackPfS_j:0000000000000000 _ZL8callbackPfS_j
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:295    .text._ZL8callbackPfS_j:00000000000001f0 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:325    .text.startup.main:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:333    .text.startup.main:0000000000000000 main
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:416    .text.startup.main:00000000000000e0 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:783    .bss.buf:0000000000000000 buf
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:433    .text.startup._GLOBAL__sub_I_hw:0000000000000000 $t
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:440    .text.startup._GLOBAL__sub_I_hw:0000000000000000 _GLOBAL__sub_I_hw
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:480    .text.startup._GLOBAL__sub_I_hw:0000000000000058 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:496    .init_array:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:789    .bss.depth:0000000000000000 depth
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:817    .bss.kvals:0000000000000000 kvals
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:824    .bss.osc:0000000000000000 osc
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:803    .bss.flt_2:0000000000000000 flt_2
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:796    .bss.flt:0000000000000000 flt
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:810    .bss.hw:0000000000000000 hw
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:506    .rodata:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:766    .bss._ZL5metro:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:770    .bss._ZL5metro:0000000000000000 _ZL5metro
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:773    .bss._ZL5noise:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:777    .bss._ZL5noise:0000000000000000 _ZL5noise
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:780    .bss.buf:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:790    .bss.depth:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:792    .bss.flt:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:799    .bss.flt_2:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:806    .bss.hw:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:813    .bss.kvals:0000000000000000 $d
+/var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s:820    .bss.osc:0000000000000000 $d
+                           .group:0000000000000000 _ZN5daisy10DaisyFieldD5Ev
+                           .group:0000000000000000 _ZN7daisysp6BiquadD5Ev
+                           .group:0000000000000000 _ZN7daisysp4CombD5Ev
+                           .group:0000000000000000 _ZN7daisysp5MetroD5Ev
+                           .group:0000000000000000 _ZN7daisysp10OscillatorD5Ev
+                           .group:0000000000000000 _ZN7daisysp10WhiteNoiseD5Ev
+
+UNDEFINED SYMBOLS
+ARM GAS  /var/folders/45/xsb7v22s5xd97d7k7sy8bf_00000gn/T//ccXbb8SA.s 			page 17
+
+
+_ZN5daisy13AnalogControl7ProcessEv
+_ZN5daisy6Switch8DebounceEv
+dsy_sr_4021_update
+dsy_sr_4021_state
+_ZN5daisy6GateIn4TrigEv
+_ZN7daisysp5Metro7ProcessEv
+_ZN7daisysp10Oscillator7ProcessEv
+_ZN7daisysp4Comb9SetPeriodEf
+_ZN7daisysp10Oscillator12CalcPhaseIncEf
+_ZN7daisysp6Biquad5ResetEv
+_ZN7daisysp4Comb7ProcessEf
+_ZN7daisysp6Biquad7ProcessEf
+_ZN5daisy10DaisyField4InitEv
+_ZN7daisysp4Comb4InitEfPfj
+_ZN7daisysp6Biquad4InitEf
+_ZN7daisysp5Metro4InitEff
+_ZN5daisy10DaisyField10StartAudioEPFvPfS1_jE
+_ZN5daisy9AdcHandle5StartEv
+memcpy
+__aeabi_atexit
+__dso_handle
