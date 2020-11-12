@@ -32,13 +32,13 @@ build/MyOscillator.o: MyOscillator.cpp ../../libdaisy/src/daisy_field.h \
  ../../DaisySP/modules/jitter.h ../../DaisySP/modules/limiter.h \
  ../../DaisySP/modules/line.h ../../DaisySP/modules/maytrig.h \
  ../../DaisySP/modules/metro.h ../../DaisySP/modules/mode.h \
- ../../DaisySP/modules/moogladder.h ../../DaisySP/modules/nlfilt.h \
- ../../DaisySP/modules/oscillator.h ../../DaisySP/modules/phasor.h \
- ../../DaisySP/modules/port.h ../../DaisySP/modules/pitchshifter.h \
- ../../DaisySP/modules/PolyPluck.h ../../DaisySP/modules/pluck.h \
- ../../DaisySP/modules/reverbsc.h ../../DaisySP/modules/samplehold.h \
- ../../DaisySP/modules/svf.h ../../DaisySP/modules/tone.h \
- ../../DaisySP/modules/whitenoise.h
+ ../../DaisySP/modules/moogladder.h ../../DaisySP/modules/moogfilter.h \
+ ../../DaisySP/modules/nlfilt.h ../../DaisySP/modules/oscillator.h \
+ ../../DaisySP/modules/phasor.h ../../DaisySP/modules/port.h \
+ ../../DaisySP/modules/pitchshifter.h ../../DaisySP/modules/PolyPluck.h \
+ ../../DaisySP/modules/pluck.h ../../DaisySP/modules/reverbsc.h \
+ ../../DaisySP/modules/samplehold.h ../../DaisySP/modules/svf.h \
+ ../../DaisySP/modules/tone.h ../../DaisySP/modules/whitenoise.h
 
 ../../libdaisy/src/daisy_field.h:
 
@@ -169,6 +169,8 @@ build/MyOscillator.o: MyOscillator.cpp ../../libdaisy/src/daisy_field.h \
 ../../DaisySP/modules/mode.h:
 
 ../../DaisySP/modules/moogladder.h:
+
+../../DaisySP/modules/moogfilter.h:
 
 ../../DaisySP/modules/nlfilt.h:
 

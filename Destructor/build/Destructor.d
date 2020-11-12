@@ -1,19 +1,19 @@
-build/ChaosGenerator.o: ChaosGenerator.cpp \
- ../../libdaisy/src/daisy_field.h ../../libdaisy/src/daisy_seed.h \
- ../../libdaisy/src/daisy.h ../../libdaisy/src/daisy_core.h \
- ../../libdaisy/src/sys/system.h ../../libdaisy/src/per/qspi.h \
- ../../libdaisy/src/per/dac.h ../../libdaisy/src/per/gpio.h \
- ../../libdaisy/src/per/sai.h ../../libdaisy/src/per/tim.h \
- ../../libdaisy/src/dev/leddriver.h ../../libdaisy/src/per/i2c.h \
- ../../libdaisy/src/dev/sdram.h ../../libdaisy/src/dev/sr_4021.h \
- ../../libdaisy/src/hid/audio.h ../../libdaisy/src/per/sai.h \
- ../../libdaisy/src/util/unique_id.h ../../libdaisy/src/per/adc.h \
- ../../libdaisy/src/per/uart.h ../../libdaisy/src/hid/midi.h \
- ../../libdaisy/src/util/ringbuffer.h ../../libdaisy/src/hid/encoder.h \
- ../../libdaisy/src/hid/switch.h ../../libdaisy/src/hid/ctrl.h \
- ../../libdaisy/src/hid/gatein.h ../../libdaisy/src/hid/parameter.h \
- ../../libdaisy/src/hid/usb.h ../../libdaisy/src/per/sdmmc.h \
- ../../libdaisy/src/per/spi.h ../../libdaisy/src/hid/oled_display.h \
+build/Destructor.o: Destructor.cpp ../../libdaisy/src/daisy_field.h \
+ ../../libdaisy/src/daisy_seed.h ../../libdaisy/src/daisy.h \
+ ../../libdaisy/src/daisy_core.h ../../libdaisy/src/sys/system.h \
+ ../../libdaisy/src/per/qspi.h ../../libdaisy/src/per/dac.h \
+ ../../libdaisy/src/per/gpio.h ../../libdaisy/src/per/sai.h \
+ ../../libdaisy/src/per/tim.h ../../libdaisy/src/dev/leddriver.h \
+ ../../libdaisy/src/per/i2c.h ../../libdaisy/src/dev/sdram.h \
+ ../../libdaisy/src/dev/sr_4021.h ../../libdaisy/src/hid/audio.h \
+ ../../libdaisy/src/per/sai.h ../../libdaisy/src/util/unique_id.h \
+ ../../libdaisy/src/per/adc.h ../../libdaisy/src/per/uart.h \
+ ../../libdaisy/src/hid/midi.h ../../libdaisy/src/util/ringbuffer.h \
+ ../../libdaisy/src/hid/encoder.h ../../libdaisy/src/hid/switch.h \
+ ../../libdaisy/src/hid/ctrl.h ../../libdaisy/src/hid/gatein.h \
+ ../../libdaisy/src/hid/parameter.h ../../libdaisy/src/hid/usb.h \
+ ../../libdaisy/src/per/sdmmc.h ../../libdaisy/src/per/spi.h \
+ ../../libdaisy/src/hid/oled_display.h \
  ../../libdaisy/src/util/oled_fonts.h ../../libdaisy/src/hid/wavplayer.h \
  ../../libdaisy/src/util/wav_format.h ../../libdaisy/src/hid/led.h \
  ../../libdaisy/src/hid/rgb_led.h ../../libdaisy/src/util/color.h \
